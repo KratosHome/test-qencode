@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url('./fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url('./fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url('./fonts/BasisGrotesquePro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #316FEA;
+    --primary-color-hover: #185be0;
+    --text-primaty: #1A1919;
+    --border-primary: #D3D8DC;
+    --line: #E3E6E9;
+    --line-text: #BEC5CC;
+    --border-primary-hover: #d4d8dc;
+    --text-white: #FFFFFF;
+    --input-placegolder: #A1ABB5;
+    --text-lavel: #060E1E;
+}
+
+body {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+
+    &:hover {
+        transition: background-color 0.3s ease;
+        color: var(--primary-color-hover);
+    }
+}
+
+.wrapper-submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    min-height: 90svh;
+
+}

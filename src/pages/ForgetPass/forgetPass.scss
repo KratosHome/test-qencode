@@ -1,0 +1,17 @@
+.container-forget-password {
+
+  .input-field-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    button{
+      margin: 25px 0;
+    }
+  }
+
+  a {
+    width: 100%;
+    text-align: center;
+  }
+}

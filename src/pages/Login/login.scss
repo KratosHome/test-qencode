@@ -1,0 +1,52 @@
+.container-login {
+
+
+  .auth-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 16px;
+
+    button {
+      width: 192px;
+    }
+  }
+
+  .container-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--line-text);
+    font-size: 14px;
+    margin: 30px 0;
+    width: 100%;
+
+    &::before,
+    &::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+      margin: 0 10px;
+      max-width: 185px;
+
+    }
+  }
+
+  .input-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+
+    .forget-pass {
+      text-align: right;
+    }
+    .sign-up{
+      text-align: center;
+    }
+  }
+}

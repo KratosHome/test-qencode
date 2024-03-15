@@ -1,0 +1,38 @@
+.container-my-btn {
+  padding: 0 20px;
+  height: 48px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+}
+
+.transparent-btn {
+  background-color: transparent;
+  border: 1px solid var(--border-primary);
+  color: var(--text-primaty);
+
+  &:hover {
+    background-color: var(--border-primary-hover);
+  }
+}
+
+.primary-btn {
+  background-color: var(--primary-color-hover);
+  border: 1px solid var(--primary-color);
+  color: var(--text-white);
+
+  &:hover {
+    background-color: var(--primary-color-hover);
+  }
+}

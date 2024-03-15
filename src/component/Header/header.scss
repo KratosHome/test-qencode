@@ -1,0 +1,20 @@
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .logo {
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    color: var(--text-primaty);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+}

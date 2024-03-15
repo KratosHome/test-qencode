@@ -1,0 +1,46 @@
+
+.container-my-input {
+  label {
+    display: inline-block;
+    color: var(--text-lavel);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .wrapper-my-input {
+    position: relative;
+
+
+    input {
+      max-width: 400px;
+      border: 1.2px solid var(--border-primary);
+      border-radius: 6px;
+      padding: 13px 11px;
+      width: 100%;
+
+      &::placeholder {
+        color: var(--input-placegolder);
+      }
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 95%;
+      transform: translate(-95%, -50%);
+      cursor: pointer;
+    }
+
+    .error-my-input {
+      position: absolute;
+      top: 180%;
+      left: 35%;
+      transform: translate(-35%, -180%);
+      color: red;
+    }
+  }
+
+}
+
+
